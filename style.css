@@ -1,0 +1,108 @@
+.Big{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 100vh;
+    background-color: #E5E7EB;
+}
+
+
+.img_con{
+    display: flex;
+     /* Centers horizontally */
+     /* Centers vertically */
+    position: relative; 
+   
+   justify-content: center;
+}
+
+.odin {
+    
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin: 100px;
+    background: gray;
+    opacity: 0.8;
+    width: 100%;
+    
+ }
+
+ .odin-image {
+    max-height: 200px; /* Adjust as needed */
+    margin-right: 20px; /* Space between image and text */
+    
+    
+}
+
+
+ .odin-text{
+    position: relative; 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    
+ }
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+.B1{
+    font-family:"Courier New", "Lucida Console", "Monaco" ;
+    margin-top: 100px;
+    padding: 50px;
+}
+
+.B2{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+    
+
+}
+
+
+
+.form-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    
+
+    
+}
+
+label{
+    
+    width: 50%;
+    
+    
+   
+}
+
+input{
+   
+    width: 50%;
+}
+
+
+.B3{
+    padding: 50px;
+    
+}
